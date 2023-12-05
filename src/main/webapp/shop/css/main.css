@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+}
+
+
+/*#header {*/
+/*    position: fixed;*/
+/*    width: 100%;*/
+/*    z-index: 1000;*/
+/*}*/
+
+.product_name_details{
+    color: black;
+    font-size: 40px;
+}
+
+.margin-top-content{
+    margin-top: 50px;
+}
+.navigation{
+    background-color: rgb(8, 97, 104);
+}
+
+#navbarNav .nav-text{
+    margin-left: 140px;
+}
+.nav-item .nav-link{
+    color: white;
+    margin: 0 20px;
+    flex: auto;
+    justify-content: center;
+}
+
+.login-navigation{
+    text-decoration: none;
+}
+
+
+/* Footer */
+.footer{
+    background-color: rgb(8, 97, 104);
+    list-style: none;
+    color: white;
+}
+
+.footer ul li{
+    list-style: none;
+}
+
+
+/* Payment info details */
+/* .payment-content .payment-info-details{
+    border: 1px solid #255;
+    border-radius: 10px;
+} */
+.payment-content{
+    margin-top: 100px;
+}
+
+/*Menu mega*/
+.navbar .megamenu{ padding: 1rem; }
+
+/* ============ desktop view ============ */
+@media all and (min-width: 992px) {
+
+    .navbar .has-megamenu{position:static!important;}
+    .navbar .megamenu{left:0; right:0; width:100%; margin-top:0;  }
+
+}
+/* ============ desktop view .end// ============ */
+
+/* ============ mobile view ============ */
+@media(max-width: 991px){
+    .navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse{
+        overflow-y: auto;
+        max-height: 90vh;
+        margin-top:10px;
+    }
+}
+
+
+/*Test CSS hover icon user*/
+/*.navigation {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*}*/
+
+/*.dropdown {*/
+/*    display: none;*/
+/*    position: absolute;*/
+/*    background-color: #f9f9f9;*/
+/*    min-width: 160px;*/
+/*    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);*/
+/*    z-index: 1;*/
+/*}*/
+
+/*.dropdown a {*/
+/*    padding: 12px 16px;*/
+/*    display: block;*/
+/*    text-decoration: none;*/
+/*    color: #333;*/
+/*}*/
+
+/*.dropdown a:hover {*/
+/*    background-color: #ddd;*/
+/*}*/
+
+/*.navigation:hover .dropdown {*/
+/*    display: block;*/
+/*}*/
